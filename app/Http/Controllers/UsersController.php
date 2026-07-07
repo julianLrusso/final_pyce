@@ -29,9 +29,6 @@ class UsersController extends Controller
         $user = User::with(['purchases' => function ($query) {
             $query->where('status', 1);
         }])->findOrFail($id);
-        // $user = User::withWhereHas('purchases', function ($query) {
-        //     $query->where('status', 1);
-        // })->find($id);
         return view('users.index', ['user' => $user]);
     }
 

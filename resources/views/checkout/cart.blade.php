@@ -38,7 +38,7 @@
                 <div>
                     <span
                         class="badge bg-secondary w-100 fs-3">Total de la compra: ${{number_format($totalAmount, 2, ',', '.')}}</span>
-                    <a role="button" class="btn btn-success w-100 mt-4" href="#">Terminar compra</a>
+                    <a class="btn btn-success w-100 mt-4" href="{{ route('checkout.process') }}">Pagar con Mercado Pago</a>
                 </div>
                 <div>
                     <a role="button" class="btn btn-danger w-100 mt-4" href="{{route('cart.clear')}}">Vaciar carrito</a>
