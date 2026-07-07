@@ -1,0 +1,50 @@
+.max-w-400 {
+    max-width: 400px;
+}
+
+.min-h-150 {
+    min-height: 150px;
+}
+
+.max-h-200 {
+    max-height: 200px;
+}
+
+.max-h-400 {
+    max-height: 400px;
+}
+
+.bg-texture {
+    background-image: url('../img/textura.jpg');
+}
+
+.bg-navbar {
+    background-color: #27096d;
+}
+
+.bg-texture-color {
+    background-color: rgba(39, 9, 109, 0.47);
+    min-height: 100vh;
+}
+
+.btn-q {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #27096d;
+    border: #27096d 2px solid;
+    text-align: center;
+    background-color: whitesmoke;
+    text-decoration: none;
+}
+
+.btn-q:hover {
+    background-color: #27096d;
+    color: whitesmoke;
+}

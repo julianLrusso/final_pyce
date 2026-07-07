@@ -1,0 +1,11 @@
+{
+	"Carrera"             => "Diseño y Programación Web",
+	"Materia"             => "Portales y Comercio Electrónico",
+	"Cuatrimestre"        => 2,
+	"Año"                 => 2024,
+	"Turno"	              => "Noche",
+	"Comisión"            => "A",
+	"Apellido y Nombre    => "López Russo, Julián",
+	"Docente"             => "Santiago Gallino",
+	"Carácter de entrega" => "Final"
+}
